@@ -1,0 +1,5 @@
+for i=1:2858
+	s=['C:\Users\Sepideh\Desktop\traj\' num2str(i) '.txt'];
+	j=transpose(mixout{i}(1:2,:));
+	dlmwrite(s,j,'delimiter',' ');
+end
